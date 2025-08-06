@@ -1,0 +1,24 @@
+# Title for identifier the project
+title: EP DCP
+# Description of project
+description: Raport of Statistic Votes
+# A User-Agent header identifying the user, environment, and version.
+# this user-agent is used for dowload the list of all EP Meetings
+User-Agent: "Statistics-prd-1.O"
+# Download EP Meetings: Return the list of all EP Meetings for each year
+meetings: 
+  Name: The list of all EP Meetings
+  years:
+    - 2024
+    - 2025  
+# Directory of save all meetings files
+dir_output_base: "./meetings_metadata"
+# folder of save all decision in a single EP Meeting
+folder_output_decision: "decision"
+# YYYYMM filter
+filter_decision: MTG-PL-(2024-09|2024-10|2024-11|2024-12|2025-01|2025-02|2025-03|2025-04|2025-05|2025-06|2025-07|2025-08)
+# Output result in csv file
+dir_output_file: "./result/votes_decisions_meps.csv"
+# Log
+logging: ./log/api_meetings.log
+logging_decision: ./log/votes_decision.log
