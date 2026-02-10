@@ -9,7 +9,7 @@ User-Agent: "Statistics-prd-1.O"
 meetings: 
   Name: The list of all EP Meetings
   years:
-    - 2025  
+    - 2026
 # Directory of save all meetings files
 dir_output_base: "./meetings_metadata"
 # folder of save all decision in a single EP Meeting
